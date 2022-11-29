@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(red 0%, yellow 100%);
+}
+
+#header-image {
+    width: 20vw;
+    background: pink;
+    border: solid red;
+    border-radius: 50%;
+    margin: auto;
+    height: 20vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20vw;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#header-title {
+    margin: auto;
+    text-align: center;
+}
+
+#main {
+    padding-top: 30px;
+}
+
+.link-container {
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+    border: solid burlywood 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 6px 6px 7px 0px burlywood;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.link {
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+
+#footer-emoji-right {
+    display: inline-block;
+    transform: scale(-1, 1);
+}
