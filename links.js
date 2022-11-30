@@ -1,5 +1,37 @@
 export const linksData = [
     {
+        id: 'linkedin',
+        text: 'LinkedIn',
+        altText: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/justinleemartin',
+        mobileLink: 'https://www.linkedin.com/in/justinleemartin',
+        show: true
+    },
+    {
+        id: 'trailblazer',
+        text: 'Trailblazer',
+        altText: 'Trailblazer',
+        link: 'https://trailblazer.me/id/justinlmartin',
+        mobileLink: 'https://trailblazer.me/id/justinlmartin',
+        show: true
+    },
+    {
+        id: 'github',
+        text: 'Github',
+        altText: 'Github',
+        link: 'https://github.com/jmartin432',
+        mobileLink: 'https://github.com/jmartin432',
+        show: true
+    },
+    {
+        id: 'email',
+        text: 'Send Me an E-mail',
+        altText: 'Send Me an E-mail',
+        link: 'mailto:info@justinlmartin.com',
+        mobileLink: 'mailto:info@justinlmartin.com',
+        show: true
+    },
+    {
         id: 'blog',
         text: 'Check Out My Blog',
         altText: 'Check Out My Blog',
@@ -40,43 +72,11 @@ export const linksData = [
         show: false
     },
     {
-        id: 'email',
-        text: 'Send Me an E-mail',
-        altText: 'Send Me an E-mail',
-        link: 'mailto:info@justinlmartin.com',
-        mobileLink: 'mailto:info@justinlmartin.com',
-        show: true
-    },
-    {
         id: 'venmo',
         text: 'Send Me Money on Venmo',
         altText: 'Send Me Money on Venmo',
         link: 'https://www.venmo.com/u/justinlmartin',
         mobileLink: 'https://www.venmo.com/justinlmartin?txn=pay',
         show: false
-    },
-    {
-        id: 'github',
-        text: 'My Github',
-        altText: 'My Github',
-        link: 'https://github.com/jmartin432',
-        mobileLink: 'https://github.com/jmartin432',
-        show: true
-    },
-    {
-        id: 'linkedin',
-        text: 'LinkedIn',
-        altText: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/justinleemartin',
-        mobileLink: 'https://www.linkedin.com/in/justinleemartin',
-        show: true
-    },
-    {
-        id: 'trailblazer',
-        text: 'Trailblazer',
-        altText: 'Trailblazer',
-        link: 'https://trailblazer.me/id/justinlmartin',
-        mobileLink: 'https://trailblazer.me/id/justinlmartin',
-        show: true
     }
 ]
