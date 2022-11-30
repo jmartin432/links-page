@@ -87,34 +87,6 @@ body {
     height: 100%;
 }
 
-
-@media screen and (max-width: 576px) {
-    #content {  
-        padding: 32px 16px;
-    }
-
-    #header-image {
-        width: 80px;
-        height: 80px;
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-
-    #header-title {
-        font-size: 16px;
-    }
-
-    .link-container {
-        margin-bottom: 20px;
-    }
-
-    .link {
-        font-size: 18px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-}
-
 #footer {
     font-family: "Poppins", sans-serif;
     width: 100%;
@@ -144,4 +116,31 @@ body {
 
 #footer:hover #footer-emoji-left {
     transform: scale(-1, 1);
+}
+
+@media screen and (max-width: 576px) {
+    #content {  
+        padding: 32px 16px;
+    }
+
+    #header-image {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #header-title {
+        font-size: 16px;
+    }
+
+    .link-container {
+        margin-bottom: 20px;
+    }
+
+    .link {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
