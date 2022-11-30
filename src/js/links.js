@@ -17,8 +17,8 @@ export const linksData = [
     },
     {
         id: 'github',
-        text: 'Github',
-        altText: 'Github',
+        text: 'GitHub',
+        altText: 'GitHub',
         link: 'https://github.com/jmartin432',
         mobileLink: 'https://github.com/jmartin432',
         show: true
