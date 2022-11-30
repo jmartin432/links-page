@@ -25,8 +25,8 @@ export const linksData = [
     },
     {
         id: 'email',
-        text: 'Send Me an E-mail',
-        altText: 'Send Me an E-mail',
+        text: 'Email Me',
+        altText: 'Email Me',
         link: 'mailto:info@justinlmartin.com',
         mobileLink: 'mailto:info@justinlmartin.com',
         show: true
