@@ -61,7 +61,7 @@ body {
     background: #FBF7FB;
     border: solid #633660 1px;
     border-radius: 5px;
-    width: 70vw;
+    width: min(70vw, 600px);
     margin: auto;
     transition-duration: .5s;
     margin-bottom: 25px;
@@ -91,6 +91,17 @@ body {
 @media screen and (max-width: 576px) {
     #content {  
         padding: 32px 16px;
+    }
+
+    #header-image {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .link-container {
+        margin-bottom: 20px;
     }
 
     .link {

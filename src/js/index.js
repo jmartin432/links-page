@@ -1,5 +1,4 @@
 import {linksData} from "./links.js";
-console.log(linksData)
 
 const detectMobile = new Promise((resolve, reject) => {
     const toMatch = [
@@ -36,7 +35,6 @@ function makeLinks(mobile) {
 }
 
 window.onload = async (event) => {
-    console.log('loaded')
     detectMobile.then(async (value) => {
         makeLinks(value)
     })

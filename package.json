@@ -3,9 +3,32 @@
   "version": "1.0.0",
   "description": "Basic Page for Links",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmartin432/links-page.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch",
+    "ws": "ws -d src/",
+    "deploy": "sh scripts/upload-files.sh"
   },
   "author": "Justin L. Martin <info@justinlmartin.com> (https://justinlmartin.com/)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.10.5",
+    "babel-loader": "8.1.0",
+    "eslint": "7.5.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "webpack": "*",
+    "webpack-cli": "*"
+  },
+  "dependencies": {
+    "npm-check-updates": "^16.4.3"
+  }
 }

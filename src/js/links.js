@@ -32,6 +32,14 @@ export const linksData = [
         show: true
     },
     {
+        id: 'resume',
+        text: 'My Resume',
+        altText: 'My Resume',
+        link: 'https://justinlmartin.com/files/Justin_L_Martin_Resume.pdf',
+        mobileLink: 'https://justinlmartin.com/files/Justin_L_Martin_Resume.pdf',
+        show: true
+    },
+    {
         id: 'blog',
         text: 'Check Out My Blog',
         altText: 'Check Out My Blog',
